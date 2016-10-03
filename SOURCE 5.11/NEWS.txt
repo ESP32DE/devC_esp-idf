@@ -1,3 +1,30 @@
+
+Version 5.11 portable version 
+  v0.95 esp-idf rudi ;-) - 03 Oktober 2016
+
+  - add ESP32 esp-idf support
+  - make targets
+  - debug / - uart version ( not pre released ) 
+  - debug / - tcp version  ( not pre release  ) 
+  - remove donat link
+  - add github link
+  - remove donat image
+  - add author for esp-idf version 
+  - pre release 5.11 v0.95 esp-idf version on 03 Oktober 2016
+  
+  - knowed: 
+    a) do not make target without open a ESP32 esp-idf project
+       there is just in time no check for valid call
+       be sure you have open/created a valid ESP esp-idf project
+
+    b) you need to setup the Makefile for each Project by yourself
+       standard is, that in each new project the Makefile is done by DevC++
+       You must set up in project option "do not create Makefile" and to use own Makefile
+       
+    c) this is prerelease, be shure you do not use it in productive doings :)
+    
+    
+
 Version 5.11 - 27 April 2015
 
 - Fixed crash related to double clicking on a compiler error when a selection was made.
